@@ -1,0 +1,148 @@
+.wrapper{
+    border: 1px solid #aaa;
+    width: 400px;
+    height:  400px;
+    margin: 0 auto;
+}
+
+
+.face{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 5px soli #000;
+    top:30px;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+    
+}
+
+.ear-left {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    border-radius: 100%
+    border: 7px solid #000;
+    baackground-color
+    left: 60px;
+    top: 15px;
+
+}
+
+ .ear-right{
+     position: absolute;
+     width: 80px;
+     height: 80px;
+     border-radius: 100%
+     border: 7px solid #000;
+     background-color: #d59729;
+     rigjt: 50px;
+     top:10px;
+ }
+.brush-left{
+    position: absolute;
+    width:100px;
+    height: 15px;
+    left: 70px;
+    top: 180pxx;
+    background-radius: 10px;
+    z-index: 3;
+}
+
+.brush-right{
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    left: 70px;
+    top: 180pxx;
+    background-radius: 10px;
+    z-index: 3;
+}
+ .eye-left{
+     position:absolute;
+     width:15px;
+     height: 15px;
+     border-radius: 100%
+     left:100px;
+     top: 200px;
+     z-index:3;
+     
+ }
+ .eye-right
+    position:absolute;
+    width:15px;
+     height: 15px;
+      border-radius: 100%
+     left:100px;
+     top: 200px;
+     z-index:3;
+}
+
+.nose{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #000
+    border-radius:80% 80% 100% 100%;
+    left: 185px;
+}
+
+.mouth-left{
+    position: absolute;
+    width; 60px;
+    height: 55px
+    border: 10px solid  #000;
+    border-radius: 100%;
+    background: #fff;
+    left:140px;
+    top: 260px;
+    z-index:3;
+
+}
+
+.mouth-right{
+    position: absolute;
+    width; 60px;
+    height: 55px
+    border: 10px solid  #000;
+    border-radius: 100%;
+    background: #fff;
+    left:140px;
+    top: 260px;
+    z-index:3;
+}
+.moth-center-left {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    transform: rotate(45deg);
+    top: 290px;
+    left:170px;
+    z-index:4;
+}
+.moth-center-right {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    transform: rotate(-45deg);
+    top: 290px;
+    left:170px;
+    z-index:4;
+}
+
+.mouth-center{
+    position: absolute;
+    width: 25px;
+    height: 10px;
+    background:#fff;
+    top:275;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    z-indedx: 5;
+}
+
